@@ -11,7 +11,7 @@ client = Minio(
         secret_key="zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG",
         secure=True
     )
-
+st.set_page_config(page_title="BulletShare")
 if 'currentScreen' not in st.session_state: 
     st.session_state.currentScreen = "home"
 
@@ -60,9 +60,9 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 MainHeading = """
     <h1 style='text-align: center; color: black;'>
-        Bullet
+        ✈️ Bullet
         <span style='color: #4A55A2; font-size: 1.3em'>
-            Share
+            Share ✈️ 
         </span>
         <hr style='padding:0; margin:0; width: 50%; left:25%; position:absolute; border: none; border-top: 2px solid black;'>
     </h1>"""
