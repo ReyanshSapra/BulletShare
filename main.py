@@ -60,13 +60,14 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 MainHeading = """
     <h1 style='text-align: center; color: black;'>
-        ✈️ Bullet
+        Bullet
         <span style='color: #4A55A2; font-size: 1.3em'>
-            Share ✈️ 
+            Share  
         </span>
         <hr style='padding:0; margin:0; width: 50%; left:25%; position:absolute; border: none; border-top: 2px solid black;'>
     </h1>"""
 st.markdown(MainHeading, unsafe_allow_html=True)
+st.write("All data sent and recieved on this platform are hosted on a open-source cloud server so do not send anything that is private or confidential")
 
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
